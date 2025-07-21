@@ -1,15 +1,16 @@
 {
-  "name": "js_ast",
-  "version": "1.0.0",
-  "description": "abstract syntax tree parser",
-  "main": "main.js",
+  "name": "arithmetic-expression-evaluator",
+  "version": "1.1.0",
+  "description": "Evaluates strings of arithmetic expressions by creating an abstract syntax tree.",
+  "main": "main.mjs",
   "scripts": {
     "test": "node test/tree.test.js"
   },
   "type": "module",
   "author": "rockymoto517",
   "license": "GPL-3.0-or-later",
-  "dependencies": {
-    "mocha": "^11.7.1"
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/rockymoto517/js-ast.git"
   }
 }
